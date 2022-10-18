@@ -25,8 +25,8 @@ export default {
       }, 10);
     },
     stopTimer() {
-        clearInterval(this.timer);
-        this.$emit('end', this.reactionTime);
+      clearInterval(this.timer);
+      this.$emit("end", this.reactionTime);
     },
   },
 };
